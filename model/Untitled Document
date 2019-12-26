@@ -1,0 +1,18 @@
+from model.pointnet import PointNetCls                                  
+
+from thop import profile                                                
+
+import torch                                                            
+
+model = PointNetCls(40)                                                 
+
+input_ = torch.rand(2, 4, 512)                                          
+
+flops, params = profile(model, inputs=(input_, ))
+
+
+        flops       params
+1024 293372384.0  1616056.0
+512  154957248.0   430264.0
+256   43151304.0   100024.0
+
