@@ -15,4 +15,4 @@ When the infilling spheres are constructed, we can directly input these 4D primi
 ![image3](./network.JPG)
 
 ## experiment
-![image3](./experiment.JPG)
+![image3](./Acc_modelnet40.JPG)
