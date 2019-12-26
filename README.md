@@ -16,3 +16,5 @@ When the infilling spheres are constructed, we can directly input these 4D primi
 
 ## experiment
 ![image3](./Acc_modelnet40.JPG)
+
+![image3](./experiments.JPG)
